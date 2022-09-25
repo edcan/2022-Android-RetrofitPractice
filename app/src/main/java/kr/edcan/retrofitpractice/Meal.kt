@@ -11,7 +11,6 @@ data class Meal(
 )
 
 data class MealApiResult(
-    @Json(name="server_message")
     val server_message : List<String>,
     val menu : List<Meal>
 )
